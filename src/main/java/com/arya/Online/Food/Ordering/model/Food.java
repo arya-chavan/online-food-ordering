@@ -44,4 +44,8 @@ public class Food {
 
     private Date creationDate;
 
+
+    public boolean isAvailable() {
+        return available;
+    }
 }
